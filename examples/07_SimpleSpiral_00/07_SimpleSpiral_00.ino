@@ -11,6 +11,7 @@
  * 
 */
 
+// added new line
 // Some aditional libraries
 #include <Wire.h>
 #include <Adafruit_MotorShield.h>
@@ -34,8 +35,8 @@ Adafruit_MotorShield AFMStop(0x60); // Default address, no jumpers
 
 // Connect two steppers with 200 steps per revolution (1.8 degree)
 // to the top shield
-Adafruit_StepperMotor *adafStepperL = AFMStop.getStepper(200, 2); // adafruit Stepper Left
-Adafruit_StepperMotor *adafStepperR = AFMStop.getStepper(200, 1); // adafruit Stepper Right
+Adafruit_StepperMotor *adafStepperL = AFMStop.getStepper(200, 2); // adafruit Stepper Left M3 & M4 
+Adafruit_StepperMotor *adafStepperR = AFMStop.getStepper(200, 1); // adafruit Stepper Right M1 & M2
 
 // some more easy functions to run each stepper one step, include some safety to not run over maxL or below 0
 #define stepping DOUBLE
