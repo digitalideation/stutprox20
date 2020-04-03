@@ -6,7 +6,7 @@
 /* ATTENTION **********************************
  *
  * before you run this sketch, make sure the left Motor is wired currectly, moving from 0 Forward
- * test this by starting the sketch first tim with a middle position for the left motor
+ * test this by starting the sketch first time with a middle position for the left motor
  * 
  * 
 */
